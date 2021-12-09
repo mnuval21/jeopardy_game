@@ -1,0 +1,65 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  text-shadow: darkgoldenrod 1px 1px
+}
+
+.restartButton{
+	background-color:#4e53df;
+	margin-bottom:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;	
+}
+
+
+
+.gameBoard {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  font-size: 9pt;
+  color: white;
+  border-collapse: collapse;
+}
+
+.gameBoard th, .gameBoard td {
+  border: solid 2px white;
+  width: 12em;
+  padding: 1em;
+  background-color: #4e53df;
+}
+
+th {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  height: 4em;
+  text-shadow: darkgoldenrod 1px 1px;
+}
+
+td {
+  height: 9em;
+  font-family: Copse, serif;
+}
+
+td:hover {
+  cursor: pointer;
+}
